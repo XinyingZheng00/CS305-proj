@@ -29,8 +29,8 @@ curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ### 1. Build Image
 
 ```sh
-git clone https://github.com/computer-networks/abr-proxy.git
-cd /abr-proxy
+git clone https://github.com/Nancyzxy/CS305-proj.git
+cd /docker_setup
 sudo docker build -t project:latest -f ./DockerFile .
 ```
 
