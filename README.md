@@ -26,6 +26,9 @@ curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 
 # Video Distribution System
 
+## IMPORTANT!!!!!!
+If you are using windows, you should run the command `git config --global core.autocrlf` before clone this repository!!!
+
 ### 1. Build Image
 
 ```sh
