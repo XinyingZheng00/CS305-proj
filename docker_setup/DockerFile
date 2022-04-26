@@ -38,6 +38,7 @@ RUN apt-get update &&\
     apt-get -y install python python-pip &&\
     apt-get -y install bison flex && \
     cd /home/click &&\
+    chmod +x ./configure && \
     ./configure --enable-local &&\
     make elemlist &&\
     make install
