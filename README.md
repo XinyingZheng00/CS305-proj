@@ -98,7 +98,9 @@ The `starter_proxy` directory contains some code to help you get started with th
 Here are some problems you may occur. It is not possible for us to consider all problems and you should try to find some solutions on your own.
 
 If you think your questions and solutions may be applicable for other students, or there are errors or unclear descriptions in our code or documentation, we are welcome your Github issues.
+### the file is too short problem
 
+see the good first issue!
 ### Flash Player
 
 You can use your browser in your machine to access ports inside the container. Note that most browsers no longer support flash and you may need to install a [tool](https://soft.flash.cn/flashcenter/index.html) to play flash on your browser. Find more info from https://www.flash.cn/support/help.html.
