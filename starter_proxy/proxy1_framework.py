@@ -1,12 +1,13 @@
-from urllib import request
-from flask import Flask, Response,Request
+import requests
+from flask import Flask, Response
 
 app = Flask(__name__)
 
 
+
 @app.route('/example')
 def simple():
-        return Response(request.get('http://www.example.com'))
+        return Response(requests.get('http://www.example.com'))
 
 
 def modify_request(message):
